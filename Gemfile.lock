@@ -118,9 +118,6 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     rdoc (4.3.0)
-    rgeo (2.0.1)
-    rgeo-geojson (2.1.1)
-      rgeo (>= 1.0.0)
     rspec-core (3.8.2)
       rspec-support (~> 3.8.0)
     rspec-expectations (3.8.4)
@@ -193,8 +190,6 @@ DEPENDENCIES
   mysql2 (~> 0.3.18)
   pg (~> 0.20)
   rails (= 4.2.8)
-  rgeo
-  rgeo-geojson
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
