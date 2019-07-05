@@ -54,7 +54,7 @@ group :development do
   gem 'mysql2',          '~> 0.3.18', :platform => :ruby
 end
 
-gem 'pg', :group => :production
+gem 'pg'
 gem 'geokit'
 gem 'rgeo'
 gem 'rgeo-geojson'
