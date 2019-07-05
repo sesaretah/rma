@@ -20,8 +20,8 @@ module Api::V1
       point = RGeo::GeoJSON.decode(params)
       @flag = false
       for container in containers
-        if container.geometry.contains?(point)
-          @flag = true
+        if container.geometry.contains?(point.geometry)
+          @flag =  true
         end
       end
       render :json => {result: 'OK', inside: @flag}.to_json
