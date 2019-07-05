@@ -58,5 +58,5 @@ group :production do
   gem 'pg', '~> 0.20'
 end
 gem 'geokit'
-gem 'rgeo'
-gem 'rgeo-geojson'
+#gem 'rgeo'
+#gem 'rgeo-geojson'
